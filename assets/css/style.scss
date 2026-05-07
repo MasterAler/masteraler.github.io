@@ -1,37 +1,87 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;1,400&display=swap');
+
 @import "{{ site.theme }}";
 
-.top-nav {
+/* ── Typography ── */
+body {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* ── Header ── */
+header h1:before {
+  content: none;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: -0.02em;
+}
+
+.header-inner {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin: 8px 0 24px;
-  padding-bottom: 12px;
-  border-bottom: 1px dashed #63c0f5;
-  flex-wrap: wrap;
+  gap: 22px;
 }
 
-.top-nav a {
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.top-nav a:hover {
-  text-decoration: underline;
-}
-
-.menu-avatar {
-  width: 36px;
-  height: 36px;
+.header-avatar {
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
   object-fit: cover;
+  flex-shrink: 0;
   border: 2px solid #63c0f5;
-  box-shadow: 0 0 8px rgba(99, 192, 245, 0.8);
+  box-shadow: 0 0 16px rgba(99, 192, 245, 0.55);
 }
 
-.page-section {
-  scroll-margin-top: 24px;
+.header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* ── Site nav ── */
+.site-nav {
+  display: flex;
+  gap: 28px;
+  padding: 14px 0 18px;
   margin-bottom: 36px;
+  border-bottom: 1px dashed rgba(181, 232, 83, 0.35);
+}
+
+.site-nav a {
+  color: #63c0f5;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  transition: color 0.15s;
+}
+
+.site-nav a::before {
+  content: '$ ';
+  color: #b5e853;
+  opacity: 0.5;
+}
+
+.site-nav a:hover {
+  color: #b5e853;
+}
+
+.site-nav a:hover::before,
+.site-nav a.active::before {
+  opacity: 1;
+}
+
+.site-nav a.active {
+  color: #b5e853;
+}
+
+/* ── Content ── */
+#main_content {
+  padding-bottom: 48px;
 }
