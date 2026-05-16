@@ -167,11 +167,11 @@ active_page: portfolio
     <div class="pf-row">
       <span class="pf-hash">a3f2c89</span>
       <span class="pf-msg"><em>ivl-display</em>: embedded display client for ICU ventilator (ARM)</span>
-      <span class="pf-date">2025-11</span>
+      <span class="pf-date">2024-11</span>
     </div>
     <div class="pf-detail">
       <div class="pf-dhdr">commit <span class="full-hash">a3f2c894b1e72d91cc0f3a8b5d4e6f2a9c1b0e37</span><br>
-Date:   Nov 2025</div>
+Date:   Nov 2024</div>
       <div class="pf-desc">Intensive Care Unit ventilator — embedded display module (freelance).
 
 Thick client running on ARM hardware for medical ventilators
@@ -190,38 +190,6 @@ team alongside the manufacturer's in-house engineers.</div>
         <span class="pf-tag">Serial Protocol</span>
         <span class="pf-tag">Medical</span>
       </div>
-    </div>
-  </div>
-
-  <div class="pf-entry" onclick="pfToggle(this)">
-    <div class="pf-row">
-      <span class="pf-hash">7b91d4e</span>
-      <span class="pf-msg"><em>ovida</em>: video coaching platform backend</span>
-      <span class="pf-date">2025-11</span>
-    </div>
-    <div class="pf-detail">
-      <div class="pf-dhdr">commit <span class="full-hash">7b91d4e2a6c83f410b9d5e71c2a8f3b4e9d1c6f2</span><br>
-Date:   Nov 2025</div>
-      <div class="pf-desc">Ovida — backend for a professional video coaching platform.
-
-Year-long build supporting video calls, personal dashboards,
-and post-session analysis: dual-stream synchronized recording,
-speech-to-text transcription with highlight detection (open questions,
-significant pauses, verbal patterns), and video-stream analysis
-of facial expressions and eye movements.
-
-Python microservices over Kafka, FastAPI endpoints, S3 storage,
-NLP pipelines on top. International team across frontend, data
-science, and DevOps.</div>
-      <div class="pf-tags">
-        <span class="pf-tag">Python</span>
-        <span class="pf-tag">FastAPI</span>
-        <span class="pf-tag">Kafka</span>
-        <span class="pf-tag">Docker</span>
-        <span class="pf-tag">Kubernetes</span>
-        <span class="pf-tag">NLP / S3</span>
-      </div>
-      <a class="pf-link" href="https://ovida.io/" target="_blank" rel="noopener">ovida.io</a>
     </div>
   </div>
 
@@ -253,6 +221,38 @@ loaded from disk, so adding a new test is a config + image drop-in.</div>
         <span class="pf-tag">Industrial</span>
         <span class="pf-tag">High Voltage</span>
       </div>
+    </div>
+  </div>
+
+  <div class="pf-entry" onclick="pfToggle(this)">
+    <div class="pf-row">
+      <span class="pf-hash">7b91d4e</span>
+      <span class="pf-msg"><em>ovida</em>: video coaching platform backend</span>
+      <span class="pf-date">2022-09</span>
+    </div>
+    <div class="pf-detail">
+      <div class="pf-dhdr">commit <span class="full-hash">7b91d4e2a6c83f410b9d5e71c2a8f3b4e9d1c6f2</span><br>
+Date:   Sep 2022</div>
+      <div class="pf-desc">Ovida — backend for a professional video coaching platform.
+
+Year-long build supporting video calls, personal dashboards,
+and post-session analysis: dual-stream synchronized recording,
+speech-to-text transcription with highlight detection (open questions,
+significant pauses, verbal patterns), and video-stream analysis
+of facial expressions and eye movements.
+
+Python microservices over Kafka, FastAPI endpoints, S3 storage,
+NLP pipelines on top. International team across frontend, data
+science, and DevOps.</div>
+      <div class="pf-tags">
+        <span class="pf-tag">Python</span>
+        <span class="pf-tag">FastAPI</span>
+        <span class="pf-tag">Kafka</span>
+        <span class="pf-tag">Docker</span>
+        <span class="pf-tag">Kubernetes</span>
+        <span class="pf-tag">NLP / S3</span>
+      </div>
+      <a class="pf-link" href="https://ovida.io/" target="_blank" rel="noopener">ovida.io</a>
     </div>
   </div>
 
