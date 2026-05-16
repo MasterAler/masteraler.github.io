@@ -8,3 +8,4 @@ active_page: contacts
 
 - Email: [masteraler@gmail.com](mailto:masteraler@gmail.com)
 - GitHub: [@MasterAler](https://github.com/MasterAler)
+- Telegram: [@masteraler](https://t.me/masteraler)
