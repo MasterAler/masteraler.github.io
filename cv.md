@@ -18,7 +18,6 @@ Moscow, Russia &nbsp;·&nbsp; [linkedin.com/in/masteraler](https://www.linkedin.
 ---
 
 ### Experience
-- More than 13 years overall
 
 **Senior C++ Software Developer** — [DSSL](https://dssl.ru)  
 *Apr 2024 – present · Moscow*
