@@ -34,14 +34,16 @@ Development and support of video analytics modules and corresponding VMS subsyst
 **Senior C++ Software Developer** — [NtechLab](https://ntechlab.com)  
 *Apr 2020 – Apr 2024 · 4 years · Moscow*
 
-Core team member for *FindFace Multi* backend services.
+Core team member developing the microservice backend of the *FindFace Multi* video-analytics platform. Primarily C++ on Linux and Docker, with production work in Go and Python.
 
-- Internal neural network inference engine and its enhancements
-- Product's custom VMS
-- Replicated & sharded face-feature search service on Tarantool (extended with Pure C modules)
-- Video stream processing module
-- Contributed to *FindFace SDK* and customer integration support
-- Regular use of Go & Lua alongside C++
+- Developed and optimized core C++ services: tracking algorithms, inference pipelines, memory usage, and throughput under high load
+- Improved multithreaded performance through profiling, processing-queue design, lock-granularity tuning, and reduced contention
+- Maintained and enhanced a distributed face-vector search service built on Tarantool, including its custom C index and HNSW-based search
+- Reduced serialization overhead by migrating communication between the Go API layer and C++ services from JSON to MessagePack
+- Designed a disk-backed HTTP restreaming service for lower-priority H.264/H.265 video, buffering excess live input so the ML pipeline could consume each stream at its own pace without disconnecting under load
+- Added hardware inference support for Huawei Atlas / Ascend NPUs
+- Designed and implemented a resource-constrained VMS integration for a major international customer, including architecture, capacity planning, and deployment sizing
+- Developed a licensing-service backend in Python and Go, with minor contributions to its Vue.js frontend
 
 ---
 
